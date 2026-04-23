@@ -1,7 +1,7 @@
 # 🎓 Eunjun's Academic Research Portfolio
 
 Welcome! I am **Eunjun**, an undergraduate researcher at **[CVMLab](https://sites.google.com/view/cvmlab)**, Dongduk Women's University. 
-My current research focuses on **Image Quality Assessment (IQA)**, **AIGC Evaluation**.
+My current research focuses on **Image Quality Assessment (IQA)**, **AIGC Generation & Evaluation**.
 
 ### 📚 Full Research Archive (Notion)
 👉 **[Eunjun's Research Dashboard](https://www.notion.so/Eunjun-s-Research-Archive-34b069dfebdf80d4aeacd786c3059f06?source=copy_link)**
