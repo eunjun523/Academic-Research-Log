@@ -21,7 +21,3 @@ I am dedicated to advancing **Image Quality Assessment (IQA)** and **AI-Generate
 
 ---
 
-## 📂 Repository Structure
-* **`01_Paper_Reviews/`**: Detailed summaries and critical analysis of key publications.
-* **`02_Seminar_Slides/`**: Presentation materials from laboratory seminars (PDF).
-* **`03_Projects/`**: Summaries of major research projects and implementations.
