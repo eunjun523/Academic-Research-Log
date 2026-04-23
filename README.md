@@ -1,7 +1,7 @@
 # 🎓 Eunjun's Academic Research Portfolio
 
 Welcome! I am **Eunjun**, an undergraduate researcher at **[CVMLab](https://sites.google.com/view/cvmlab)**, Dongduk Women's University. 
-I am highly motivated to pursue a Master's degree (Fall 2027) focusing on **Image Quality Assessment (IQA)**, **AIGC Evaluation**, and **Low-Level Vision**.
+My current research focuses on **Image Quality Assessment (IQA)**, **AIGC Evaluation**.
 
 ### 📚 Full Research Archive (Notion)
 👉 **[Eunjun's Research Dashboard](https://www.notion.so/Eunjun-s-Research-Archive-34b069dfebdf80d4aeacd786c3059f06?source=copy_link)**
