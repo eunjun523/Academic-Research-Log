@@ -31,4 +31,13 @@ This implementation is highly relevant for **Image Quality Assessment (IQA)** ta
 * Automated quality control in media streaming pipelines.
 
 ## 🛠️ How to Run
-*(여기에 라이브러리 설치 방법이나 노트북 실행 방법 추가: 예: `pip install scikit-image matplotlib`)*
+
+### 1. Prerequisites
+Ensure you have Python 3.8 or higher installed on your system. It is highly recommended to use a virtual environment or **Jupyter Notebook** for the best visualization experience.
+
+### 2. Install Dependencies
+You need to install the required Python libraries. Run the following command in your terminal:
+
+```bash
+pip install numpy matplotlib scikit-image
+
