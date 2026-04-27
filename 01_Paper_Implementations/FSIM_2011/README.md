@@ -27,30 +27,28 @@ We simulated five representative types of image degradation on a high-quality re
 3.  **The "False Edge" Sensitivity:** In the Transmission Error test, the appearance of artificial color blocks introduced sharp contrast boundaries. FSIMc correctly penalized these as structural anomalies (0.903), demonstrating its sensitivity to **locally inconsistent feature maps.**
 4.  **Frequency Masking:** All metrics correctly assigned higher scores to **Correlated Noise** than **Gaussian Noise**, validating the HVS property where low-frequency distortions are less distracting than high-frequency "salt" noise.
 
-## 💼 Practical Applications
-
-This FSIM analysis is particularly effective for:
-* **Medical Imaging:** Preserving critical structural boundaries during compression.
-* **Denoising Benchmarks:** Evaluating if an algorithm maintains edges while removing noise.
-* **Edge Computing:** Assessing quality loss in low-bandwidth video transmission where blocky errors occur.
-
 ## 🛠️ How to Run
 
 ### 1. Prerequisites
-Python 3.8+ is required. We recommend using a virtual environment or **Jupyter Notebook**.
+* **Python 3.8+** is required.
+* **VS Code Extensions:** Ensure the **Python** and **Jupyter** extensions are installed in your VS Code.
 
-### 2. Install Dependencies
-Install the specialized IQA and image processing libraries:
+### 2. Environment Setup
+Install the necessary IQA and image processing libraries using the terminal in VS Code:
 ```bash
 pip install torch torchvision piq scikit-image opencv-python
 ```
 
-### 3. Execute the Analysis
-Run the benchmarking script to generate scores and visualizations:
-```bash
-python fsim_benchmark_test.py
-```
+### 3. Execution via Jupyter Notebook
+1. Open the provided `FSIM.ipynb` file in VS Code.
+2. Select your Python kernel (top right corner of the editor).
+3. Run each cell sequentially (or click **"Run All"**) to execute the benchmarking analysis.
 
 ### 4. Expected Output
-* **Console:** Real-time similarity scores (SSIM, FSIM, VIF) for each distortion type.
-* **Visualization:** A 2x3 Matplotlib plot displaying the reference image alongside its 5 distorted variants with their respective quality scores.
+* **Inline Results:** The notebook will display real-time similarity scores (SSIM, FSIM, VIF) directly below the code cells.
+* **Integrated Visualization:** A **2x3 Matplotlib plot** will be rendered within the notebook, showing the reference image (`Astronaut`) and its 5 distorted variants, each labeled with its respective quality scores for immediate comparison.
+
+---
+
+### 💡 Tip for GitHub README
+깃허브에 올리실 때, `FSIM.ipynb` 파일 자체를 레포지토리에 포함하면 깃허브가 자동으로 노트북의 실행 결과(그래프와 점수)를 웹 브라우저에서 보여줍니다. 따라서 이 `How to Run` 섹션과 함께 **"You can view the pre-rendered results directly in the FSIM.ipynb file."** 같은 문구를 추가하면 보는 사람이 훨씬 편하겠죠?
