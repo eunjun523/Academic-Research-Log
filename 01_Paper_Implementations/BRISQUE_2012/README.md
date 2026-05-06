@@ -22,8 +22,9 @@ The side-by-side comparison below shows how the BRISQUE score increases as artif
 
 * **Pristine Image**: Shows the typical statistics of a natural scene.
 * **Noisy Image**: The statistical distribution of MSCN coefficients deviates from the ideal Gaussian shape, resulting in a higher quality score.
+![Uploading image.png…]()
 
-*(여기에 두 이미지가 나란히 있는 실행 결과 화면을 캡처하여 삽입하세요)*
+
 
 ### 💡 Key Findings
 * **Sensitivity**: The model is highly sensitive to Gaussian noise, showing a dramatic score jump from approximately 10 to 68.
